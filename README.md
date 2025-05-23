@@ -33,14 +33,22 @@ ELEVENLABS_API_KEY=your_api_key_here
 ```bash
 python elevenlabs-tts.py --test-connection
 ```
+![Screenshot 2025-05-23 at 12 23 18 PM](https://github.com/user-attachments/assets/5d356c8a-36e6-4c9d-b31a-d83c7c931158)
+
 
 ### 4. Convert Text to Speech
 ```bash
 # Basic usage
 python elevenlabs-tts.py sample_text.txt
 
+![Screenshot 2025-05-23 at 12 24 13 PM](https://github.com/user-attachments/assets/a393c185-13a8-4d35-b078-9de3811e5152)
+
+
 # With custom voice and output
 python elevenlabs-tts.py sample_text.txt -v bella -o my_speech.mp3
+
+![Screenshot 2025-05-23 at 12 36 17 PM](https://github.com/user-attachments/assets/84dd0e2b-64a9-4fac-893b-568fd128c0b0)
+
 
 # With custom voice settings
 python elevenlabs-tts.py sample_text.txt -v josh --stability 0.7 --similarity 0.8
@@ -117,6 +125,7 @@ part1-text-to-speech/
 ├── elevenlabs-tts.py          # Main script
 ├── requirements.txt       # Dependencies
 ├── sample_text.txt       # Sample input file
+├── .env                 # Not included, stores API keys
 ├── README.md             # This file
 └── output/               # Generated audio files (auto-created)
 ```
@@ -157,10 +166,6 @@ part1-text-to-speech/
    ```
    Solution: Split large texts into smaller chunks
 
-## 📈 Coming Next
-
-- **Part 2**: OpenAI Whisper Speech-to-Text integration
-- **Part 3**: Complete AI Customer Service Agent combining both
 
 ## 🤝 Contributing
 
@@ -169,13 +174,8 @@ part1-text-to-speech/
 3. Make your changes
 4. Submit a pull request
 
-## 📄 License
-
-MIT License - feel free to use for your projects!
 
 ## 🔗 Links
 
 - [ElevenLabs API Documentation](https://docs.elevenlabs.io/)
 - [ElevenLabs Website](https://elevenlabs.io)
-- [Part 2: Speech-to-Text](../part2-speech-to-text/) (Coming Soon)
-- [Part 3: AI Agent](../part3-ai-agent/) (Coming Soon)
