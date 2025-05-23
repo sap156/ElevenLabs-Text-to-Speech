@@ -1,0 +1,5 @@
+Hello Sai! This is a test of the ElevenLabs text-to-speech API. 
+
+I'm demonstrating how natural and expressive AI-generated voices can sound. This technology opens up incredible possibilities for voice applications, audiobooks, virtual assistants, and much more!
+
+The script can handle different voices, adjust speech parameters, and generate high-quality audio files. This is Part 1 of our Voice AI series, where we explore the capabilities of modern speech synthesis technology.
