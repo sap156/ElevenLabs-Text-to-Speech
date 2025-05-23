@@ -1,4 +1,4 @@
-# ElevenLabs Voice AI Series - Part 1: Text-to-Speech
+# ElevenLabs Voice AI - Text-to-Speech
 
 A simple Python script to convert text files to speech using the ElevenLabs API.
 
@@ -31,41 +31,41 @@ ELEVENLABS_API_KEY=your_api_key_here
 
 ### 3. Test Connection
 ```bash
-python tts_script.py --test-connection
+python elevenlabs-tts.py --test-connection
 ```
 
 ### 4. Convert Text to Speech
 ```bash
 # Basic usage
-python tts_script.py sample_text.txt
+python elevenlabs-tts.py sample_text.txt
 
 # With custom voice and output
-python tts_script.py sample_text.txt -v bella -o my_speech.mp3
+python elevenlabs-tts.py sample_text.txt -v bella -o my_speech.mp3
 
 # With custom voice settings
-python tts_script.py sample_text.txt -v josh --stability 0.7 --similarity 0.8
+python elevenlabs-tts.py sample_text.txt -v josh --stability 0.7 --similarity 0.8
 ```
 
 ## 📋 Usage Examples
 
 ```bash
 # Test API connection
-python tts_script.py --test-connection
+python elevenlabs-tts.py --test-connection
 
 # Basic conversion
-python tts_script.py input.txt
+python elevenlabs-tts.py input.txt
 
 # Custom voice (female)
-python tts_script.py input.txt -v bella
+python elevenlabs-tts.py input.txt -v bella
 
 # Custom output filename
-python tts_script.py input.txt -o speech.mp3
+python elevenlabs-tts.py input.txt -o speech.mp3
 
 # Fine-tune voice settings
-python tts_script.py input.txt -v adam --stability 0.6 --similarity 0.9 --style 0.2
+python elevenlabs-tts.py input.txt -v adam --stability 0.6 --similarity 0.9 --style 0.2
 
 # Use different AI model
-python tts_script.py input.txt -m eleven_multilingual_v2
+python elevenlabs-tts.py input.txt -m eleven_multilingual_v2
 ```
 
 ## Testing API Connection
@@ -114,7 +114,7 @@ python3 elevenlabs-tts.py --test-connection
 
 ```
 part1-text-to-speech/
-├── tts_script.py          # Main script
+├── elevenlabs-tts.py          # Main script
 ├── requirements.txt       # Dependencies
 ├── sample_text.txt       # Sample input file
 ├── README.md             # This file

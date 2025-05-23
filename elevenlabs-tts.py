@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 ElevenLabs Text-to-Speech Script
-Part 1 of 3: Voice AI Series
 
 Simple script to convert text files to speech using ElevenLabs API.
 """
@@ -157,10 +156,10 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python tts_script.py input.txt
-  python tts_script.py input.txt -v bella -o my_audio.mp3
-  python tts_script.py input.txt -v josh --stability 0.7 --similarity 0.8
-  python tts_script.py --test-connection
+  python elevenlabs-tts.py input.txt
+  python elevenlabs-tts.py input.txt -v bella -o my_audio.mp3
+  python elevenlabs-tts.py input.txt -v josh --stability 0.7 --similarity 0.8
+  python elevenlabs-tts.py --test-connection
         """
     )
     
