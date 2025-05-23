@@ -33,7 +33,6 @@ ELEVENLABS_API_KEY=your_api_key_here
 ```bash
 python elevenlabs-tts.py --test-connection
 ```
-![Screenshot 2025-05-23 at 12 24 13 PM](https://github.com/user-attachments/assets/cbdb3ccd-7a4d-4301-b28d-bc07a3146840)
 
 ![Screenshot 2025-05-23 at 12 23 18 PM](https://github.com/user-attachments/assets/5d356c8a-36e6-4c9d-b31a-d83c7c931158)
 
@@ -42,9 +41,9 @@ python elevenlabs-tts.py --test-connection
 ```bash
 # Basic usage
 python elevenlabs-tts.py sample_text.txt
-
-
-
+```
+![Screenshot 2025-05-23 at 12 24 13 PM](https://github.com/user-attachments/assets/cbdb3ccd-7a4d-4301-b28d-bc07a3146840)
+```
 # With custom voice and output
 python elevenlabs-tts.py sample_text.txt -v bella -o my_speech.mp3
 ```
@@ -75,13 +74,6 @@ python elevenlabs-tts.py input.txt -v adam --stability 0.6 --similarity 0.9 --st
 
 # Use different AI model
 python elevenlabs-tts.py input.txt -m eleven_multilingual_v2
-
-## Testing API Connection
-
-To test the connection to the ElevenLabs API and list available voices, run the following command:
-
-```bash
-python3 elevenlabs-tts.py --test-connection
 ```
 
 ## 🎤 Available Voices
