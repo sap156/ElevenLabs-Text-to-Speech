@@ -1,6 +1,7 @@
 # ElevenLabs Voice AI - Text-to-Speech
 
 A simple Python script to convert text files to speech using the ElevenLabs API.
+![elevenlabs-979](https://github.com/user-attachments/assets/e11bb15e-b406-4ad2-8512-e8c161119fb8)
 
 ## 🎯 Features
 
