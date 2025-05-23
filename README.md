@@ -41,13 +41,11 @@ python elevenlabs-tts.py --test-connection
 # Basic usage
 python elevenlabs-tts.py sample_text.txt
 
-![Screenshot 2025-05-23 at 12 24 13 PM](https://github.com/user-attachments/assets/a393c185-13a8-4d35-b078-9de3811e5152)
 
 
 # With custom voice and output
 python elevenlabs-tts.py sample_text.txt -v bella -o my_speech.mp3
 
-![Screenshot 2025-05-23 at 12 36 17 PM](https://github.com/user-attachments/assets/84dd0e2b-64a9-4fac-893b-568fd128c0b0)
 
 
 # With custom voice settings
@@ -63,11 +61,15 @@ python elevenlabs-tts.py --test-connection
 # Basic conversion
 python elevenlabs-tts.py input.txt
 
+![Screenshot 2025-05-23 at 12 24 13 PM](https://github.com/user-attachments/assets/cbdb3ccd-7a4d-4301-b28d-bc07a3146840)
+
 # Custom voice (female)
 python elevenlabs-tts.py input.txt -v bella
 
 # Custom output filename
 python elevenlabs-tts.py input.txt -o speech.mp3
+
+![Screenshot 2025-05-23 at 12 39 45 PM](https://github.com/user-attachments/assets/53cfa097-1067-4428-a54b-ca017363c14c)
 
 # Fine-tune voice settings
 python elevenlabs-tts.py input.txt -v adam --stability 0.6 --similarity 0.9 --style 0.2
