@@ -2,7 +2,7 @@
 
 A simple Python script to convert text files to speech using the ElevenLabs API.
 
-![elevenlabs-979](https://github.com/user-attachments/assets/e11bb15e-b406-4ad2-8512-e8c161119fb8)
+![Screenshot 2025-05-23 at 12 51 29 PM](https://github.com/user-attachments/assets/6e562843-4212-4d3e-af28-853d3976d21c)
 
 ## 🎯 Features
 
