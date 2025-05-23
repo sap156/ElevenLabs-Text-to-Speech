@@ -33,6 +33,8 @@ ELEVENLABS_API_KEY=your_api_key_here
 ```bash
 python elevenlabs-tts.py --test-connection
 ```
+![Screenshot 2025-05-23 at 12 24 13 PM](https://github.com/user-attachments/assets/cbdb3ccd-7a4d-4301-b28d-bc07a3146840)
+
 ![Screenshot 2025-05-23 at 12 23 18 PM](https://github.com/user-attachments/assets/5d356c8a-36e6-4c9d-b31a-d83c7c931158)
 
 
@@ -45,9 +47,10 @@ python elevenlabs-tts.py sample_text.txt
 
 # With custom voice and output
 python elevenlabs-tts.py sample_text.txt -v bella -o my_speech.mp3
+```
+![Screenshot 2025-05-23 at 12 39 45 PM](https://github.com/user-attachments/assets/53cfa097-1067-4428-a54b-ca017363c14c)
 
-
-
+```
 # With custom voice settings
 python elevenlabs-tts.py sample_text.txt -v josh --stability 0.7 --similarity 0.8
 ```
@@ -60,25 +63,18 @@ python elevenlabs-tts.py --test-connection
 
 # Basic conversion
 python elevenlabs-tts.py input.txt
-```
 
-![Screenshot 2025-05-23 at 12 24 13 PM](https://github.com/user-attachments/assets/cbdb3ccd-7a4d-4301-b28d-bc07a3146840)
-```
 # Custom voice (female)
 python elevenlabs-tts.py input.txt -v bella
 
 # Custom output filename
 python elevenlabs-tts.py input.txt -o speech.mp3
-```
 
-![Screenshot 2025-05-23 at 12 39 45 PM](https://github.com/user-attachments/assets/53cfa097-1067-4428-a54b-ca017363c14c)
-```
 # Fine-tune voice settings
 python elevenlabs-tts.py input.txt -v adam --stability 0.6 --similarity 0.9 --style 0.2
 
 # Use different AI model
 python elevenlabs-tts.py input.txt -m eleven_multilingual_v2
-```
 
 ## Testing API Connection
 
